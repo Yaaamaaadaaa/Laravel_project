@@ -19,3 +19,8 @@ Route::get('/test', function () {
 });
 
 Route::get('/sample', [SampleController::class, 'index']);
+Route::get('/select', [SampleController::class, 'select']);
+Route::get('/select_many', [SampleController::class, 'selectMany']);
+Route::get('/insert', [SampleController::class, 'insert']);
+Route::get('/delete', [SampleController::class, 'delete']);
+Route::get('/update', [SampleController::class, 'update']);
